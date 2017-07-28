@@ -1,0 +1,38 @@
+{
+  "name": "happy-slides",
+  "title": "Happy Slides",
+  "version": "0.1.0",
+  "description": "A ready-to-go, customizeable, touch-ready slider",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jelmerdemaat/happy-slides.git"
+  },
+  "keywords": [
+    "slider",
+    "slides",
+    "happy",
+    "happiness",
+    "gallery",
+    "photos"
+  ],
+  "author": "Jelmer de Maat",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/jelmerdemaat/happy-slides/issues"
+  },
+  "homepage": "https://github.com/jelmerdemaat/happy-slides#readme",
+  "devDependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-latest": "^6.24.1",
+    "rollup": "^0.45.2",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-json": "^2.3.0",
+    "rollup-watch": "^4.3.1"
+  }
+}
